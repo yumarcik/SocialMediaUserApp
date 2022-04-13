@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" rowHeight="141" id="KGk-i7-Jjw" customClass="PostCell" customModule="UserPostApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7S-5M-ben">
+                        <rect key="frame" x="268" y="57" width="97" height="27.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="97" id="zHr-2z-4GB"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Show More&gt;&gt;">
+                            <fontDescription key="titleFontDescription" type="system" pointSize="11"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="showMoreBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="PZh-nX-gRa"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0b-of-jfO">
+                        <rect key="frame" x="10" y="10" width="258" height="121"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" red="0.23430192470550537" green="0.054247044026851654" blue="0.071376107633113861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="J0b-of-jfO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="GMi-NZ-6bI"/>
+                    <constraint firstAttribute="bottom" secondItem="J0b-of-jfO" secondAttribute="bottom" constant="10" id="Nub-1F-Pyj"/>
+                    <constraint firstItem="T7S-5M-ben" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bkw-PU-4W7"/>
+                    <constraint firstItem="J0b-of-jfO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gNM-Mq-1YQ"/>
+                    <constraint firstItem="T7S-5M-ben" firstAttribute="leading" secondItem="J0b-of-jfO" secondAttribute="trailing" id="mfe-8Q-4NM"/>
+                    <constraint firstAttribute="trailing" secondItem="T7S-5M-ben" secondAttribute="trailing" id="sAQ-ar-ZEn"/>
+                    <constraint firstItem="J0b-of-jfO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zJv-es-bCN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="showMoreBtn" destination="T7S-5M-ben" id="ku1-fh-b0A"/>
+                <outlet property="titleLbl" destination="J0b-of-jfO" id="c8Y-U6-NdK"/>
+            </connections>
+            <point key="canvasLocation" x="170.28985507246378" y="142.96875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

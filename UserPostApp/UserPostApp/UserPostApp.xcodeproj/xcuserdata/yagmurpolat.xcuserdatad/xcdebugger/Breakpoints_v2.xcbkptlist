@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E4DEE050-02E9-49B9-B910-346E9080EF57"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE29030F-9659-4244-BB18-CB27A0C69BB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserPostApp/ViewModels/HomePageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(service:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE29030F-9659-4244-BB18-CB27A0C69BB6 - 90952fb8c49d996a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserPostApp.HomePageViewModel.__allocating_init(service: UserPostApp.UserPostServiceProtocol) -&gt; UserPostApp.HomePageViewModel"
+                  moduleName = "UserPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/UserPostApp/UserPostApp/UserPostApp/ViewModels/HomePageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BE29030F-9659-4244-BB18-CB27A0C69BB6 - 1b0fc9d062bd5b8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserPostApp.HomePageViewModel.init(service: UserPostApp.UserPostServiceProtocol) -&gt; UserPostApp.HomePageViewModel"
+                  moduleName = "UserPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/UserPostApp/UserPostApp/UserPostApp/ViewModels/HomePageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
