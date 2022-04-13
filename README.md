@@ -1,4 +1,4 @@
-# SocialMediaUserApp
+# SocialMediaUserApp / MVVM Example
  You can read user's posts and their comments.
 
 <table>
